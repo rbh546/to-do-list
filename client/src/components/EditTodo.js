@@ -5,7 +5,7 @@ const EditTodo = ({ todo }) => {
 
   // edit description
 
-  const updateDescription = async () => {
+  const updateDescription = async (e) => {
     e.preventDefault();
     try {
       const body = { description };
